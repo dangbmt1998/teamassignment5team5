@@ -33,3 +33,7 @@
   }
 })(jQuery);
 $("#timeline-1").timeline();
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+});
